@@ -3,73 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Keerthana P S - Portfolio</title>
+<title>Keerthana P S | Portfolio</title>
 
 <style>
-body{
-    font-family: Arial, sans-serif;
+*{
     margin:0;
     padding:0;
-    background:#f4f4f4;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
 }
 
 header{
-    background:#4a90e2;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
     color:white;
     text-align:center;
-    padding:40px;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin:0 15px;
+    font-weight:bold;
 }
 
 section{
+    max-width:1000px;
+    margin:40px auto;
+    padding:30px;
     background:white;
-    margin:20px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.1);
-}
-
-h2{
-    color:#4a90e2;
-}
-
-ul{
-    line-height:1.8;
-}
-
-footer{
-    background:#333;
-    color:white;
-    text-align:center;
-    padding:15px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Keerthana P S</h1>
-    <h3>BCA Student | QPL Learner | Future IT Professional</h3>
-</header>
-
-<section>
-    <h2>About Me</h2>
-    <p>
-        Hello! I am Keerthana P S, a Bachelor of Computer Applications (BCA) student.
-        I am passionate about technology and continuously learning new skills in the IT field.
-    </p>
-</section>
-
-<section>
-    <h2>Education</h2>
-    <ul>
-        <li>Bachelor of Computer Applications (BCA)</li>
-        <li>QPL Learner</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Machine Learning</li>
-        <li>Artificial Intelligence (
+    border-radius:15
